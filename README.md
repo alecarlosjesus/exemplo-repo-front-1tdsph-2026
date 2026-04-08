@@ -6,7 +6,7 @@ Página de exemplo sobre esportes
 
 ## Authors
 
-- [@alecarlosjesus](https://www.github.com/alecarlosjesus)
+- [@AndreL050690](https://www.github.com/AndreL050690)
 
 
 ## 🚀 About Me
