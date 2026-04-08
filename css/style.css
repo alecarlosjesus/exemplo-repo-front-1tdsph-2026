@@ -61,5 +61,19 @@
   line-height: 1;
   margin: 10px 0 20px 0;
 }
-
-
+footer{
+    background-color: #1a1a1c;
+    color: #fff;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
