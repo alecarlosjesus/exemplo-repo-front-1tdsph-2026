@@ -29,4 +29,15 @@
     color: #fff;
     text-decoration: none;
 }
+#hero {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+#hero button {
+    background-color: #0f0f6d;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+}
 
