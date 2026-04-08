@@ -30,3 +30,8 @@
     text-decoration: none;
 }
 
+#hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px;
+}
