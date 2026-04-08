@@ -32,5 +32,18 @@
     color: #fff;
     text-decoration: none;
 }
+#hero{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 5px;
+}
+#hero h2{
+    margin: 0;
+}
+#hero button{
+    height: 35px;
+    width: 100px;
+    
+}
 
 
