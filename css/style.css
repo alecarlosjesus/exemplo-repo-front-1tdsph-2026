@@ -10,14 +10,17 @@
 
 #cabecalho h1{
     font-size: 40px;
-    text-align: center;
+    text-align: left;
     margin: 0;
+    display: flexbox;
 }
 
 #cabecalho nav ul{
     list-style: none;
-    background-color: #2c2c45;
+    background-color: #000000;
     padding: 0;
+    display: flexbox;
+    text-align: right;
 }
 
 #cabecalho nav ul li{
@@ -26,6 +29,6 @@
 }
 
 #cabecalho nav ul li a{
-    color: #fff;
+    color: #a4b1fc;
     text-decoration: none;
 }
