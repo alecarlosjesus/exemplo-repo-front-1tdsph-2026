@@ -1,5 +1,5 @@
 
-header{
+#cabecalho{
     background-color: #1a1a1c;
     padding: 1%;
     color: #fff;
@@ -30,3 +30,8 @@ header nav ul li a{
     text-decoration: none;
 }
 
+.unico{
+    color: #fff;
+    background-color: #1a1a1c;
+    padding: 10px 0;
+}
