@@ -45,5 +45,21 @@
     width: 100px;
     
 }
+.card{
+    display: inline-block;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to bottom, #f4f4f4, #2c2c45);
+    text-align: center;
+}
+.emoji {
+  display: block;
+  font-size: 30px;
+  line-height: 1;
+  margin: 10px 0 20px 0;
+}
 
 
