@@ -37,3 +37,14 @@
     text-align: center;
     background-color: #f4f4f4;
 }
+
+#emoji img{
+    size: 50px;
+}
+
+#teste{
+    background-color: #f4f4f4;
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 2px;
+}
