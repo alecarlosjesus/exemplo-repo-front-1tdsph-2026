@@ -65,3 +65,29 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIÁVEIS */
+:root {
+  --primary-color: #fefcfc;
+  --scondary-color: #141414;
+  text-emphasis-color: #2e0101;
+  background-color: #c7bcbc;
+}
+
+/* BODY */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
