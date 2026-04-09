@@ -35,3 +35,18 @@
     text-align: center;
     padding: 40px;
 }
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  padding: 20px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
