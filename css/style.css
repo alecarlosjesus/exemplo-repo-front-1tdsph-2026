@@ -1,11 +1,16 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #cabecalho{
     background-color: #1a1a1c;
     padding: 1%;
     color: #fff;
-    width: 95%;
+    width: 100%;
     height: 120px;
-    margin: 0 auto;
 }
 
 #cabecalho h1{
@@ -35,7 +40,7 @@
 
 #hero{
     text-align: center;
-    background-color: #f4f4f4;
+    background-color:rgb(185, 159, 159);
 }
 
 #emoji img{
@@ -44,8 +49,9 @@
 }
 
 #teste{
-    background-color: #f4f4f4;
+    background-color:rgb(139, 137, 137);
+    display: flexbox;
     border-style: solid;
-    border-radius: 5%;
+    border-radius: 1%;
     border-width: 2px;
 }
