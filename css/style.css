@@ -1,5 +1,5 @@
 
-/* #cabecalho{
+#cabecalho{
     background-color: #1a1a1c;
     padding: 1%;
     color: #fff;
@@ -27,7 +27,7 @@
 
 #cabecalho nav ul li a{
     text-decoration: none;
-} */
+}
 
 *{
     margin:0;
