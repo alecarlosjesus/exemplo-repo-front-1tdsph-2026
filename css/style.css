@@ -5,7 +5,10 @@
 
 }
 
-
+#container{
+    width: 70%;
+    margin: 0 auto;
+}
 #cabecalho {
     background-color: #1a1a1c;
     padding: 1%;
