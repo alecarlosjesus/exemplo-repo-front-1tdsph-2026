@@ -1,5 +1,5 @@
 
-#cabecalho{
+/*#cabecalho{
     background-color: #1a1a1c;
     padding: 1%;
     color: #fff;
@@ -27,6 +27,21 @@
 
 #cabecalho nav ul li a{
     text-decoration: none;
+} */
+
+* {
+    background-color:#bb1138;
+    // margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
+
+h1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #75ffed
+
+}
+
 
 
