@@ -1,5 +1,16 @@
 
-#cabecalho{
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --cor0: #1a1a1c;
+    --cor1: #2c2c45;
+    --cor2:#f4f4f4;
+    --cor3: #fff;
+}
+    #cabecalho{
     background-color: #1a1a1c;
     padding: 1%;
     color: #fff;
