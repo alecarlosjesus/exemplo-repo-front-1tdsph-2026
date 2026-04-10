@@ -32,4 +32,11 @@
     text-decoration: none;
 }
 
+#hero{
+    display: inline-block;
+    width: 50%;
+}
+
+
+
 
