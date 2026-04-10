@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 
 #cabecalho {
     background-color: #1a1a1c;
@@ -39,5 +46,39 @@
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
+}
+.conteudo{
+    display: inline-block;
+}
+.bloco01{
+    background-color:rgb(133, 133, 190);
+    padding: 5%;
+    margin: 5%;
+    border: 2px solid  #0f0f6d;
+    display: flex;
+    justify-content: center;
+    align-intens: center;
+    display: inline-block;
+    width: 30%;
+    height: 50;
+    
+
+}
+.bloco01 button{
+    background-color: #0f0f6d;
+    padding: 5px 10px;
+    text-align:center;
+    display: flex;
+    align-intens: center;
+    justify-content: center;
+}
+.bloco01 button a{
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-align:center;
+    display: flex;
+    align-intens: center;
+    justify-content: center;
 }
 
