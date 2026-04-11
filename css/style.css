@@ -1,5 +1,5 @@
 
-#cabecalho{
+ #cabecalho{
     background-color: #1a1a1c;
     padding: 1%;
     color: #fff;
@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 
-#cabecalho h1{
+'#cabecalho h1{
     font-size: 40px;
     text-align: center;
     margin: 0;
@@ -26,7 +26,82 @@
 }
 
 #cabecalho nav ul li a{
+    color: #fff;
     text-decoration: none;
 }
+
+#hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  padding: 20px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+footer {
+  background-color: #1a1a1a; 
+  color: #f0f0f0;            
+  text-align: center;       
+  padding: 20px;
+}
+
+footer a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --primary-color: #fefcfc;
+  --scondary-color: #141414;
+  text-emphasis-color: #2e0101;
+  background-color: #c7bcbc;
+}
+
+#container {
+  width:70%
+  margin:0 auto;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+ *{
+  margin:0;
+  padding:0;
+
+ }
+
 
 
