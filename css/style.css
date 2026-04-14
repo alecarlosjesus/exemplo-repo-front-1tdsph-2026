@@ -1,6 +1,24 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor0: #fff;
+    --cor1: #f4f4f4;
+    --cor2: #add8e6;
+    --cor3: #2c2c45;
+    --cor4: #1a1a1c;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
 #cabecalho{
-    background-color: #1a1a1c;
+    background-color: var(--cor4);
     padding: 1%;
     color: #fff;
     width: 95%;
@@ -17,7 +35,7 @@
 #cabecalho nav ul{
     font-size: 20px;
     list-style: none;
-    background-color: #2c2c45;
+    background-color: var(--cor3);
     padding: 0;
     text-align: right;
     padding: 5px;
@@ -29,11 +47,11 @@
 }
 
 #cabecalho nav ul li a{
-    color: #fff;
+    color: var(--cor0);
     text-decoration: none;
 }
 #hero{
-    background-color: #f4f4f4;
+    background-color: var(--cor1);
     text-align: center;
     padding: 5px;
 }
@@ -52,7 +70,7 @@
     border-radius: 10px;
     height: 300px;
     width: 300px;
-    background-image: linear-gradient(to bottom, #f4f4f4, #2c2c45);
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
     text-align: center;
 }
 .emoji {
@@ -62,8 +80,8 @@
   margin: 10px 0 20px 0;
 }
 footer{
-    background-color: #1a1a1c;
-    color: #fff;
+    background-color: var(--cor4);
+    color: var(--cor0);
     text-align: center;
 }
 footer ul{
@@ -71,9 +89,9 @@ footer ul{
 }
 footer a {
     text-decoration: none;
-    color: #fff;
+    color: var(--cor0);
 }
 footer a:hover{
     text-decoration: underline;
-    color: lightblue;
+    color: var(--cor2);
 }
