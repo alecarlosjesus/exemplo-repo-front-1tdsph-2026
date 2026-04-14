@@ -20,7 +20,7 @@ body{
 #cabecalho{
     background-color: var(--cor4);
     padding: 1%;
-    color: #fff;
+    color: var(--cor0);
     width: 95%;
     height: 120px;
     margin: 0 auto;
