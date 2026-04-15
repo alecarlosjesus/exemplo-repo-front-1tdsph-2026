@@ -1,4 +1,4 @@
-
+/*
 *{
     margin: 0;
     padding: 0;
@@ -59,4 +59,19 @@
     border-style: solid;
     border-radius: 1%;
     border-width: 2px;
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid #52f109;
+    margin: 20px auto;
 }
