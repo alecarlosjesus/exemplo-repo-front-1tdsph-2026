@@ -68,10 +68,10 @@
     box-sizing: border-box;
 }
 
-h1{
-    width: 200px;
-    height: 100px;
-    background-color: red;
-    border: 2px solid #52f109;
-    margin: 20px auto;
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
 }
