@@ -86,7 +86,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
+
+html{
+  /*font-size: 100%; quer dizer que estou declarando a fonte 16px */
+  font-size: 62.5%; /* ai fica 10px, pq aplicamos pois é tudo na base da referencia, todo mundo vai ta olhando para esse valor do html */
+
+}
+
+body{
+  font-size: 1rem; /* quer dizer que a fonte é 16 px */
+}
+
 
 
 /*
