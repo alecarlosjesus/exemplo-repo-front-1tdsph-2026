@@ -1,0 +1,16 @@
+
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* font-size: 100%; 16px */
+    font-size: 62.5%; /* 62.5% de 16px é igual a 10px */
+}
+
+body{
+    font-size: 2rem;
+}
