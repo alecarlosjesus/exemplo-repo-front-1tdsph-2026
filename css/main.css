@@ -1,4 +1,6 @@
+@import url(./base.css);
 
+/*
  #cabecalho{
     background-color: #1a1a1c;
     padding: 1%;
@@ -8,7 +10,7 @@
     margin: 0 auto;
 }
 
-'#cabecalho h1{
+   #cabecalho h1{
     font-size: 40px;
     text-align: center;
     margin: 0;
@@ -102,6 +104,7 @@ body {
   padding:0;
 
  }
+ */
 
 
 
