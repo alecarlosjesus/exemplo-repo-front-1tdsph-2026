@@ -1,10 +1,10 @@
+/*
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Cores principais */
 :root {
   --cor-primaria: #1e90ff;
   --cor-secundaria: #0f172a;
@@ -79,3 +79,38 @@
 #estilo {
   font-family: Arial, sans-serif;
 }
+*/
+
+/* RESETT BASICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*
+h1 {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+
+  border: 10px solid green;
+  
+  border-top: 10px solid green;
+  border-right: 10px solid green;
+  border-bottom: 10px solid green;
+  border-left: 10px solid green;
+
+  margin: 10px 20px;  top-bottom  right-left
+
+  margin: 10px 20px 10px 13px;  top - right - bottom - left
+
+  margin: 10px 11px 12px;  top - right - bottom - left  
+}
+*/
+
+
+
+
