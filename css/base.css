@@ -1,0 +1,20 @@
+/*reset básico*/
+
+/*seletor universal -> seleciona todas as tags*/
+
+*{
+    margin: 0;/*propriedades short-hand*/
+    padding: 0;
+    box-sizing: border-box;/*mantem a largura do real que foi determinado para o elemento*/
+    font-size: 16px;
+}
+
+html{
+    font-size: 62.5%;/*10px*/
+}
+
+body{
+    font-size: 2rem;
+}
+
+
