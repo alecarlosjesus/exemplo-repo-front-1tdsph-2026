@@ -3,28 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página Inicial</title>
-
+    <title>ESPORTE TOTAL</title>
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-
   <body id="estilo">
     <div id="container">
-      <header id="cabecalho">
-        <h1>Página Inicial</h1>
-        <nav id="menu">
-          <ul>
-            <li>
-              <a class="unico" href="./pagina1.html">Página 1</a>
+      <header class="cabecalho">
+        <nav class="cabecalho__navbar">
+          <ul class="cabecalho__lista">
+            <li class="cabecalho__lista-item">
+              <a class="cabecalho__link cabecalho__link--active" href="./index.html">Home</a>
             </li>
-            <li>
-              <a href="./paginas/pagina2.html">Página 2</a>
+            <li iclass="cabecalho__lista-item">
+              <a class="cabecalho__link" href="./paginas/basquete.html"
+                >Basquete</a
+              >
+            </li>
+            <li iclass="cabecalho__lista-item">
+              <a class="cabecalho__link" href="./paginas/futebol.html"
+                >Futebol</a
+              >
+            </li>
+            <li iclass="cabecalho__lista-item">
+              <a class="cabecalho__link" href="./paginas/Volei.html">Volei</a>
             </li>
           </ul>
         </nav>
       </header>
 
       <main>
+        <section>
+          <h1>Página Inicial</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="./pagina1.html">mais...</a>
+        </section>
         <section>
           <h2>Página 1</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
