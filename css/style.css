@@ -1,4 +1,24 @@
-#cabecalho {
+ 
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-primaria: #1e90ff;
+  --cor-secundaria: #0f172a;
+  --cor-fundo: #f5f5f5;
+  --cor-texto: #333;
+}  
+
+#container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+ 
+ #cabecalho {
   background-color: #1a1a1c;
   padding: 1%;
   color: #fff;
@@ -60,17 +80,5 @@
 #estilo {
   font-family: Arial, sans-serif;
 }
-/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-/* Cores principais */
-:root {
-  --cor-primaria: #1e90ff;
-  --cor-secundaria: #0f172a;
-  --cor-fundo: #f5f5f5;
-  --cor-texto: #333;
-}
+
