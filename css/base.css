@@ -1,10 +1,5 @@
-<<<<<<< HEAD:css/style.css
- 
- * {
-=======
 /*
 * {
->>>>>>> e95d795aecd562b270d438a3f6992320c8a8998a:css/base.css
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,17 +10,6 @@
   --cor-secundaria: #0f172a;
   --cor-fundo: #f5f5f5;
   --cor-texto: #333;
-<<<<<<< HEAD:css/style.css
-}  
-
-#container{
-    width: 70%;
-    margin: 0 auto;
-}
-
- 
- #cabecalho {
-=======
 }
 
 #container {
@@ -34,7 +18,6 @@
 }
 
 #cabecalho {
->>>>>>> e95d795aecd562b270d438a3f6992320c8a8998a:css/base.css
   background-color: #1a1a1c;
   padding: 1%;
   color: #fff;
@@ -96,9 +79,6 @@
 #estilo {
   font-family: Arial, sans-serif;
 }
-<<<<<<< HEAD:css/style.css
-
-=======
 */
 
 /* RESETT BASICO */
@@ -145,5 +125,4 @@ h1 {
 
 
 
->>>>>>> e95d795aecd562b270d438a3f6992320c8a8998a:css/base.css
 
