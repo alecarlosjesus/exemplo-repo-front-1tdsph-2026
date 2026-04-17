@@ -1,49 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página Inicial</title>
+    <title>Esporte Total</title>
 
-    <link rel="stylesheet" href="./css/main.css">
-
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
 
-  <body> 
-    <header id="cabecalho">
-      <h1>Página Inicial</h1>
-      <nav id="menu"> 
-        <ul>
-          <li><a class="unico" href="./pagina1.html">Página 1</a></li>
-          <li><a href="./paginas/pagina2.html">Página 2</a></li>
-        </ul>
-      </nav>
-    </header>
+  <body>
+    <div id="container">
+      <header class="cabecalho">
+        <nav class="cabecalho__navbar">
+          <ul class="cabecalho__lista">
+            <li class="cabecalho__list-item"><a class="cabecalho_link cabecalho__link--active" href="./index.html" >Home</a></li>
+            <li class="cabecalho__list-item"><a class="cabecalho__link" href="./paginas/basquete.html">Basquete</a></li>
+            <li class="cabecalho__list-item"><a class="cabecalho__link" href="./paginas/futebol.html">Futebol</a></li>
+            <li class="cabecalho__list-item"><a class="cabecalho__link" href="./paginas/volei.html">Vôlei</a></li>
+            <li class="cabecalho__list-item"><a class="cabecalho__link" href="https://github.com/Gizetto61">Link externo do GitHub</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <main>
-      <section>
-        <h2>Página 1</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-          molestias repudiandae quas velit nemo rem amet vel. Aliquam
-          blanditiis, perspiciatis nihil dicta quaerat, similique, mollitia
-          fugiat et necessitatibus id quam!
+      <main>
+        <section id="hero">
+          <h1>Página Inicial</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            molestias repudiandae quas velit nemo rem amet vel. Aliquam
+            blanditiis, perspiciatis nihil dicta quaerat, similique, mollitia
+            fugiat et necessitatibus id quam!
+          </p>
+          <a href="./pagina1.html">mais...</a><br />
+          <!-- <button>clique aqui</button> -->
+        </section>
+        <section>
+          <h2>Página 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            molestias repudiandae quas velit nemo rem amet vel. Aliquam
+            blanditiis, perspiciatis nihil dicta quaerat, similique, mollitia
+            fugiat et necessitatibus id quam!
+          </p>
+          <a href="./paginas/pagina2.html">mais...</a>
+        </section>
+        <!-- 
+        <section id="emoji">
+          <div id="container2">
+            <h3>Emoji 1</h3>
+            <img
+              src="https://th.bing.com/th/id/R.256f91d82d37bf063b2c26412b89d5b1?rik=J%2fCyyw1Q2%2b1HRA&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f06%2fUnamused-Face-Emoji-PNG.png&ehk=8%2feX43hqgHwR8XQH3UnhP3Bbj%2f5WomwNAAYa1FRGMyI%3d&risl=&pid=ImgRaw&r=0"
+              alt="Emoji01"
+              id="emoji1"
+            />
+            <p>Este emogi está muito entediado!</p>
+
+            <h3>Emoji 2</h3>
+            <img
+              src="https://tse3.mm.bing.net/th/id/OIP.K6imW6iwixPCPIz_qtX7awHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+              alt="Emoji02"
+            />
+            <p>Está muito sol!</p>
+
+            <h3>Emoji 3</h3>
+            <img
+              src="https://media.istockphoto.com/id/583798382/pt/vetorial/surrender-emoticon.jpg?s=612x612&w=0&k=20&c=0CZN9fS01ogmIWIkRbkHMNvpmmFHvSTowW_O6OSDN_A="
+              alt="Emoji03"
+            />
+            <p>Que susto!</p>
+          </div>
+        </section>
+        -->
+      </main>
+      <footer id="rodape">
+        <ul>
+          <li><h3>Credenciáis</h3></li>
+          <ul><h4>Linkedin</h4>
+            <li><a href="https://www.linkedin.com/in/giovanni-zorzetto-oliveira-8375b9305" target="_blank">https://www.linkedin.com/in/giovanni-zorzetto-oliveira-8375b9305</a></li>
+            <h4>Email</h4>
+            <li><a href="gigiozetto@gmail.com" target="_blank">gigiozetto@gmail.com</a></li>
+            <h4>Github</h4>
+            <li><a href="https://github.com/Gizetto61" target="_blank">https://github.com/Gizetto61</a></li>
+          </ul>
+        </ul>
+        <p id="unico">
+          Giovanni Zorzetto Oliveira &copy; - Todos os direitos reservados
         </p>
-        <a href="./pagina1.html">mais...</a>
-      </section>
-      <section>
-        <h2>Página 2</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-          molestias repudiandae quas velit nemo rem amet vel. Aliquam
-          blanditiis, perspiciatis nihil dicta quaerat, similique, mollitia
-          fugiat et necessitatibus id quam!
-        </p>
-        <a href="./paginas/pagina2.html">mais...</a>
-      </section>
-    </main>
-    <footer>
-      <p class="unico">Alexandre C. de Jesus &copy; - Todos os direitos reservados</p>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
