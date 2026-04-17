@@ -9,8 +9,8 @@
 :root {
     --bg-dark: #1a1b1c; /* Cor padrão de fundo */
     --bg-dark-med: #45494d; /* Cor padrão de sombras */
-    --primary:#76786c; /* Cor primária */
-    --primary-inv: #30370d; /* Cor primária hover */
+    --primary:#30370d; /* Cor primária */
+    --primary-inv: #76786c; /* Cor primária hover */
     --text-main: #fff; /* cor para textos principais/gerais */
     --text-title: ###fefdfd: /* cor para títulos */
     --main-title: 4rem; /* tamanho para títulos principais */ 
@@ -22,5 +22,18 @@ html {
 }
 
 body {
-    font-size: 2rem
+    font-size: 2rem;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+
 }
