@@ -3,29 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página Inicial</title>
+    <title>Esporte Total</title>
 
     <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
     <div id="container">
-      <header id="cabecalho">
-        <h1>Página Inicial</h1>
-        <nav id="menu">
-          <ul>
-            <li><a href="./pagina1.html">Página 1</a></li>
-            <li><a href="./paginas/pagina2.html">Página 2</a></li>
-            <li>
-              <a href="https://github.com/Gizetto61">Link externo do GitHub</a>
-            </li>
+      <header class="cabecalho">
+        <nav class="cabecalho__navbar">
+          <ul class="cabecalho__lista">
+            <li class="cabecalho__list-item"><a class="cabecalho_link cabecalho__link--active" href="./index.html" >Home</a></li>
+            <li class="cabecalho__list-item"><a class="cabecalho__link" href="./paginas/basquete.html">Basquete</a></li>
+            <li class="cabecalho__list-item"><a class="cabecalho__link" href="./paginas/futebol.html">Futebol</a></li>
+            <li class="cabecalho__list-item"><a class="cabecalho__link" href="./paginas/volei.html">Vôlei</a></li>
+            <li class="cabecalho__list-item"><a class="cabecalho__link" href="https://github.com/Gizetto61">Link externo do GitHub</a></li>
           </ul>
         </nav>
       </header>
 
       <main>
         <section id="hero">
-          <h2>Página 1</h2>
+          <h1>Página Inicial</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
             molestias repudiandae quas velit nemo rem amet vel. Aliquam
@@ -33,7 +32,7 @@
             fugiat et necessitatibus id quam!
           </p>
           <a href="./pagina1.html">mais...</a><br />
-          <button>clique aqui</button>
+          <!-- <button>clique aqui</button> -->
         </section>
         <section>
           <h2>Página 2</h2>
@@ -45,6 +44,7 @@
           </p>
           <a href="./paginas/pagina2.html">mais...</a>
         </section>
+        <!-- 
         <section id="emoji">
           <div id="container2">
             <h3>Emoji 1</h3>
@@ -70,6 +70,7 @@
             <p>Que susto!</p>
           </div>
         </section>
+        -->
       </main>
       <footer id="rodape">
         <ul>
