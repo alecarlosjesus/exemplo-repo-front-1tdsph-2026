@@ -4,7 +4,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 100%;
+    font-weigth: normal;
 }
+/* Reset Básico */
+
+:root{
+    /*
+    
+    Declarando um variavel no css:
+    utilizamos o -- para marcar um identificador,o
+    identificador(nome da varivel).
+    os identificadores devem sempre ser seguidos dos 
+    -- (2 traços hifens) e do nome (identificador).
+    EX:
+    --cor-de-fundo
+    --fonte-texto
+    --cor-user
+
+    Exemplo de declaração:
+
+    :root{
+       --texto-titulo : 3rem;
+       --cor-texto-titulo: #563277;
+    }
+       Exemplo de utilização:
+
+       .texto{
+          font-size : var(--texto-titulo);
+          color: var(--cor-texto-titulo);
+       }
+    */
+
+    --bg-dark : #1a1b1c;/*Cor padrão de fundo*/
+    --bg-dark-med: #45494d; /*Cor base de sombreamento*/
+    --primary : #424632;/*Cor primaria*/
+    --primary-inv: #76786c; /*Cor primaria hover*/
+    --primary-bg: #39370d; /*Cor primaria hover*/
+    --text-main: #fff; /*Cor para os textos principais ou gerais*/
+    --text-title: #fefdfd; /*Cor cor para titulos*/
+
+    --titulo-main: 4rem;/* Base de tamanho para títulos principais */
+    --sub-titulo: 3rem; /* Base de tamanho para sub-títulos principais */
+}
+
 
 html{
     /* font-size: 100%; 16px */
