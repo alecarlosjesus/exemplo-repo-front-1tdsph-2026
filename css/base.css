@@ -84,7 +84,7 @@
 /* RESETT BASICO */
 * {
   margin: 0;
-  padding: 0;
+  padding: 0; 
   box-sizing: border-box;
   font-size: 100%;
   font-weight: normal;
@@ -141,9 +141,19 @@ html{
 
 body{
   font-size: 2rem; /* quer dizer que a fonte é 16 px */
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a{
+  tex-decoration: none;
+  color: inherit;
+}
 
+ul{
+  list-style: none;
+}
 
 /*
 h1 {
