@@ -1,20 +1,30 @@
-header
 {
+    /*reset - remove as margens e o preenchimento padrão do navegador*/
+    margin: 0;
+    padding: 0;
+
     /*fundo*/
-    background-color: #1a1a1c;
+    
+    background-image: url("/image/image-back.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
     /*espaçamento entre o conteúdo e as bordas. É a margem interna*/
     padding: 1%;
     color:#fff;
+
     /*largura*/
     width: 100%;
     height: 120px;
-    margin: 0 auto;
+
 }
 
 header h1
 {
     font-size: 40px;
-    text-align: center;
+    text-align: left;
     margin: 0;
 }
 
