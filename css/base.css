@@ -51,6 +51,18 @@ html{
 
 body{
     font-size: 2rem;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI';
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
 }
 
 #container{
