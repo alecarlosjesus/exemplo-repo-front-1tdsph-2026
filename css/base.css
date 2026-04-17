@@ -56,4 +56,16 @@ html{
 
 body{
     font-size: 2rem;
+    whidth: 100vw;
+    height: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+     text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
 }
