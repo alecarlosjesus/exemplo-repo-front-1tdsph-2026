@@ -1,4 +1,3 @@
-/*
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +7,14 @@
 #container{
     width: 70%;
     margin: 0 auto;
+}
+
+#container footer{
+    margin-top: 10px;
+    padding-left: 30px;
+    background-color:rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    border: solid 2px black;
 }
 
 #cabecalho{
@@ -53,14 +60,14 @@
     width: 100px
 }
 
-#teste{
+#container2{
     background-color:rgb(139, 137, 137);
     display: flexbox;
     border-style: solid;
     border-radius: 1%;
     border-width: 2px;
 }
-*/
+
 
 *{
     margin: 0;
