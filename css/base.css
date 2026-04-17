@@ -17,6 +17,12 @@
     border: solid 2px black;
 }
 
+#container footer p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60%;
+}
+
 #cabecalho{
     background-color: #1a1a1c;
     padding: 1%;
