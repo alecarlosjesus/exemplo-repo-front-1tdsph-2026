@@ -29,4 +29,3 @@ function App() {
 - Additional browser support
 
 - Add more integrations
-
