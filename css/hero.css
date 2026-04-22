@@ -1,0 +1,25 @@
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-dark-med);
+    color: var(--text-main);
+    padding: 1%;
+}
+
+.hero__container{
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+
+    /* OVERLAY */
+    background-image: linear-gradient(rgba(55, 0, 0, 0.5)) , url("../img/img-01-fundo-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
