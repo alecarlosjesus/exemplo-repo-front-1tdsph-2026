@@ -1,0 +1,16 @@
+.cabecalho{
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.cabecalho__navbar, .cabecalho__lista{
+    width: 100%;
+    height: 100%;
+}
+
+.cabecalho__list-item{
+    display: inline-block;
+}
