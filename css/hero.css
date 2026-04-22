@@ -3,7 +3,6 @@
     width: 100%;
     background-color: var(--bg--dark-med);
     color: var(--text-main);
-    padding: 1%;
 }
 
 .hero__container{
@@ -17,4 +16,17 @@
     background-image: linear-gradient(rgba(55, 0, 0, 0.5)) , url("../img/img-01-fundo-hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.hero__title{
+    text-align: center;
+    font-size: var(--titulo-main);
+    color: var(--text-title);
+    text-transform: uppercase;
+}
+
+.hero__text{
+    text-align: justify;
+    font-size: 2.5rem;
+    line-height: 1.5;
 }
