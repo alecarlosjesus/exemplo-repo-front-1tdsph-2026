@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 100%;
-    font-weigth: normal;
+    font-weight: normal;
 }
 /* Reset Básico */
 
@@ -63,12 +63,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-content: space-around;
+    align-content: space-between;
 
 }
 
 a{
-     text-decoration: none;
+    text-decoration: none;
     color: inherit;
 }
 
