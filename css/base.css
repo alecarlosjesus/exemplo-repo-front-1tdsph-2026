@@ -56,9 +56,15 @@ html{
 
 body{
     font-size: 2rem;
-    whidth: 100vw;
+    width:  100vw;
     height: 100vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+
 }
 
 a{
@@ -68,4 +74,10 @@ a{
 
 ul{
     list-style: none;
+}
+
+main{
+    width: 100%;
+    
+
 }
