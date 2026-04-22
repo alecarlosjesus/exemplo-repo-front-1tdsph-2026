@@ -1,5 +1,6 @@
-@import url(./base.css);
-@import url('./cabecalho.css')
+@import url('./base.css');
+@import url('./cabecalho.css');
+@import url('./hero.css');
 
 /*
  #cabecalho{

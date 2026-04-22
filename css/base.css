@@ -1,16 +1,15 @@
+/* Reset básico */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 100%
+    font-size: 100%;
     font-weight: normal;
-    
-
 }
-/*Reset Básico*/
+/* Reset básico */
 
 :root{
-
+  
     --bg-dark : #1a1b1c; /* Cor padrão de fundo */
     --bg-dark-med : #45494d; /* Cor base de sombreamento */
     --primary:#424632; /* Cor primária */
@@ -18,48 +17,39 @@
     --primary-bg:#30370d; /* Cor primária hover */
     --text-main:#fff; /*Cor para os textos principais ou gerais */
     --text-title:#fefdfd; /*Cor para títulos */
+
     --titulo-main: 4rem; /* Base de tamanho para títulos principais */
     --sub-titulo: 3rem; /* Base de tamanho para sub-títulos principais */
 }
 
-    /*
-      Utilizamos os -- para marcar um identificador, o identificador (nome da variavel)
-      Os identificadores devem sempre ser seguidos dos -- (2 traços) e do nome (identificador)
-      Ex:
-      --cor de fundo
-      --fonte texto
-      --cor-user
 
-        Exemplo de declaração:
-        :root{
-          --texto-titulo: 3rem;
-          --cor-texto-titulo: #563739:
-
-        }
-
-          Exemplo de Utilização:
-          .texto{
-           fonte-size: var(--texto-titulo)
-           color: var(--cor-texto-titulo);
-          }
-    */
-}
 html{
-    font-size: 62.5%;
+    font-size: 62.5%; /* 10px */
 }
 
 body{
     font-size: 2rem;
     width: 100vw;
     height: 100vh;
-    font-family: 'Segoe UI', Tahoma , Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+
 }
 
 a{
-    text-decoration: none:
+    text-decoration: none;
     color: inherit;
 }
 
 ul{
     list-style: none;
+}
+
+main{
+    width: 100%;
 }
