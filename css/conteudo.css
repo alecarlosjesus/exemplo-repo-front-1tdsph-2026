@@ -1,0 +1,11 @@
+
+
+.conteudo__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*
+ Alunos!!
+  Finalizar esta seção com o grid-layout
+*/
