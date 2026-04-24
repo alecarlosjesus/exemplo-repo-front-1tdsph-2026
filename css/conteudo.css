@@ -1,0 +1,6 @@
+
+
+.conteudo__container{
+    display: grid;
+    grid-template-columns: 10% 10rem 40vw;
+}

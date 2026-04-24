@@ -1,32 +1,49 @@
+# 🚀 Exercício 01: Meu Primeiro Deploy Colaborativo
 
-# ESPORTES TOTAL
+Bem-vindo ao seu primeiro desafio prático de Front-End! Aqui vamos aprender a trabalhar como um time real de desenvolvimento.
 
-Página de exemplo sobre esportes
+## 🎯 Objetivo
+Praticar o fluxo de **Fork**, **Estruturação HTML**, **Estilização CSS** e **Pull Requests**.
 
+---
 
-## Authors
+## 🛠️ Passo a Passo (O Fluxo de Trabalho)
 
-- [@alecarlosjesus](https://www.github.com/alecarlosjesus)
+### 1. Preparando o Terreno
+1. Faça um **Fork** deste repositório para a sua conta.
+2. Clone o repositório que agora está no *seu* perfil para sua máquina local:
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/nome-do-repo.git](https://github.com/SEU-USUARIO/nome-do-repo.git)
 
+   2. Escolhendo uma Tarefa
 
-## 🚀 About Me
-I'm a full stack developer and teacher at FIAP.
+Vá na aba Issues do repositório original do professor e escolha uma tarefa (Ex: "Issue #1 - Criar Cabeçalho").
 
+    Nota: Informe no comentário da Issue que você está trabalhando nela!
 
-## Usage/Examples
+3. Mão na Massa
 
-```javascript
-import Component from 'my-project'
+No VS Code:
 
-function App() {
-  return <Component />
-}
-```
+    Estruture o conteúdo no index.html.
 
+    Crie as regras de estilo no style.css.
 
-## Roadmap
+4. Entrega e Vínculo
 
-- Additional browser support
+Após fazer o git push para o seu fork, você abrirá um Pull Request (PR) para o repositório do professor.
 
-- Add more integrations
+⚠️ Importante: Na descrição do seu Pull Request, escreva:
+Este PR resolve a Issue #ID_DA_ISSUE (Substitua pelo número da tarefa que você escolheu).
+📋 Critérios de Avaliação
+Habilidade	O que será observado
+Versionamento	Uso correto de commits e abertura do PR.
+Estrutura	Uso de tags semânticas (header, main, footer).
+Estilização	Organização do CSS e fidelidade ao layout.
+💡 Dicas de Iniciante
 
+    Commits curtos: Não faça tudo e comite uma vez só. Comite cada pequena vitória!
+
+    Leia a Issue: A descrição da tarefa contém os requisitos exatos do que deve ser feito.
+
+    Cuidado com o caminho: Verifique se o seu <link> do CSS está apontando para o arquivo correto.
