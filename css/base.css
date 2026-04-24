@@ -3,14 +3,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 100%;
+    font-weight: normal;
 }
 /* Reset básico */
 
+:root{
+  
+    --bg-dark : #1a1b1c; /* Cor padrão de fundo */
+    --bg-dark-med : #45494d; /* Cor base de sombreamento */
+    --primary:#424632; /* Cor primária */
+    --primary-inv:#76786c; /* Cor primária hover */
+    --primary-bg:#30370d; /* Cor primária hover */
+    --text-main:#fff; /*Cor para os textos principais ou gerais */
+    --text-title:#fefdfd; /*Cor para títulos */
+
+    --titulo-main: 4rem; /* Base de tamanho para títulos principais */
+    --sub-titulo: 3rem; /* Base de tamanho para sub-títulos principais */
+}
+
+
 html{
-    /* font-size: 100%;  16px */
     font-size: 62.5%; /* 10px */
 }
 
 body{
     font-size: 2rem;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+main{
+    width: 100%;
 }
