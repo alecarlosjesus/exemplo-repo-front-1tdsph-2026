@@ -11,6 +11,26 @@
     height: 100%;
 }
 
-.cabecalho__list-item{
-    display: inline-block;
+.cabecalho__lista{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (min-width: 320px){
+    .cabecalho{
+        background: #1B0530;
+        background: linear-gradient(358deg, rgba(27, 5, 48, 1) 6%, rgb(98, 53, 105) 35%, rgb(36, 1, 36) 100%);
+        padding: 2rem;
+}
+    .cabecalho__list-item{
+         margin: 0 0.2rem;
+}
+}
+
+@media (min-width: 768px){
+    .cabecalho__list-item{
+     margin: 0 3rem;
+     font-size: 2.5rem;
+}
 }

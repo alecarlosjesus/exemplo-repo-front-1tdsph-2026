@@ -57,13 +57,13 @@ html{
 body{
     font-size: 2rem;
     width:  100vw;
-    height: 100vw;
+    height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-content: space-between;
+    
 
 }
 
