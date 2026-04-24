@@ -1,0 +1,4 @@
+.conteudo_container{
+    display: grid;
+    grid-template-colums:20% 200px 1fr 20%;
+}
