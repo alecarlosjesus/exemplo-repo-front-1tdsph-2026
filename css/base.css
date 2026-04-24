@@ -10,13 +10,13 @@
 
 /* Pseudo elemento (utilizamos -- para marcar o identificador/nome da variável) */
 :root{
-    --bg-light: #FFFBF1; /* Background color */
-    --bg-light-med: #FFF2D0; /* Cor base de sombreamento */
-    --primary: #FFB2B2;
-    --primary-inv: #967171; /* Cor primária hover */
-    --primary-bg: #db7676; /* Cor primária hover */
-    --text-main: #5c4545; /* Cor para textos principais ou gerais */
-    --text-title: #302525; /* Cor para títulos */
+    --bg-dark : #1a1b1c; /* Cor padrão de fundo */
+    --bg-dark-med : #45494d; /* Cor base de sombreamento */
+    --primary:#424632; /* Cor primária */
+    --primary-inv:#76786c; /* Cor primária hover */
+    --primary-bg:#30370d; /* Cor primária hover */
+    --text-main:#fff; /*Cor para os textos principais ou gerais */
+    --text-title:#fefdfd; /*Cor para títulos */
 
     --titulo-main: 4rem; /* Tamanho para títulos principais */
     --sub-titulo: 3rem; /* Tamanho para sub títulos */
