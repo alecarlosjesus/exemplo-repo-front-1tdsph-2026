@@ -1,16 +1,145 @@
-/* Reset básico */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 100%;
+    font-weight: normal;
 }
-/* Reset básico */
+
+:root{
+    /*
+        Declarando uma variável no css:
+        Utilizamos os -- para marcar
+        um identificador, o identificador
+        é o nome da variável.
+        Os identificadores sempre devem ser 
+        seguidos dos 2 traços (--) e do nome
+        (identificador).
+        EX:
+            --cor-de-fundo
+            --fonte-texto
+            --cor-user
+
+        Exemplo de declaração:
+        :root{
+            --texto-titulo: 3rem;
+            --cor-texto-titulo: #563277;
+        }
+
+        Exemplo de utilização:
+
+        .texto{
+            font-size: var(--texto-titulo);
+            color: var(--cor-texto-titulo: #563277);
+        }
+    */
+    --bg--dark: #1a1b1c; /*Cor padrão de fundo*/
+    --bg--dark-med: #45494d; /*Cor base de sombreamento*/
+    --primary: #424632; /*Cor primária*/
+    --primary-inv: #76786c; /*Cor primária hover*/
+    --primary-bg: #30370d; /* Cor primária hover */
+    --text-main: #fff; /*Cor para os textos principais ou gerais */
+    --text-title: #fefdfd; /*Cor para títulos */
+    
+    --titulo-main: 4rem; /*Base tamanho para titulos principais */
+    --sub-titulo: 3rem; /* Base de tamanho para sub-títulos principais */
+}
 
 html{
-    /* font-size: 100%;  16px */
-    font-size: 62.5%; /* 10px */
+    font-size: 62.5%;
 }
 
 body{
     font-size: 2rem;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+
 }
+
+main{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+/*
+#container{
+    width: 70%;
+    margin: 0 auto;
+}
+#container footer{
+    margin-top: 150px;
+    padding: 1%;
+    background-color:rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    border: solid 2px black;
+}
+#container footer p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60%;
+}
+
+#cabecalho{
+    background-color: #1a1a1c;
+    padding: 1%;
+    color: #fff;
+    width: 100%;
+    height: 120px;
+}
+
+#cabecalho h1{
+    font-size: 40px;
+    text-align: left;
+    margin: 0;
+    display: flexbox;
+}
+
+#cabecalho nav ul{
+    list-style: none;
+    background-color: #000000;
+    padding: 0;
+    display: flexbox;
+    text-align: right;
+}
+
+#cabecalho nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#cabecalho nav ul li a{
+    color: #a4b1fc;
+    text-decoration: none;
+}
+
+#hero{
+    text-align: center;
+    background-color:rgb(185, 159, 159);
+}
+
+#emoji img{
+    height: 100px;
+    width: 100px
+}
+
+#container2{
+    background-color:rgb(139, 137, 137);
+    display: flexbox;
+    border-style: solid;
+    border-radius: 1%;
+    border-width: 2px;
+}
+    */
