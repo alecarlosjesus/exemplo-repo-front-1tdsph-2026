@@ -32,12 +32,15 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
 
+=======
+>>>>>>> c15d1ec490d0e4842f5766693ff3c069958894eb
 }
 
 a{
@@ -48,7 +51,10 @@ a{
 ul{
     list-style: none;
 }
+<<<<<<< HEAD
 
 main{
     width: 100%;
 }
+=======
+>>>>>>> c15d1ec490d0e4842f5766693ff3c069958894eb
