@@ -12,7 +12,7 @@
         <ul class="cabecalho__lista">
           <li class="cabecalho__list-item">
             <a
-              class="cabecalho__link cabecalho__link--active"
+              class="cabecalho_link cabecalho_link--active"
               href="./index.html"
               >Home</a
             >
@@ -39,7 +39,7 @@
                   minlength="13"
                   maxlength="150"
                   required
-                  oninvalid="setCustomValidity(`Existem erros no campo ${this.name}.`)"
+                  oninvalid="setCustomValidity"(Existem erros no campo ${this.name}.)"
                 />
               </div>
               <div>
@@ -52,7 +52,7 @@
                   minlength="5"
                   maxlength="30"
                   required
-                  oninvalid="setCustomValidity(`Existem erros no campo ${this.name}.`)"
+                  oninvalid="setCustomValidity"(Existem erros no campo ${this.name}.)"
                 />
               </div>
               <div>
@@ -85,7 +85,19 @@
 
         //Formas de dar saída em texto no JS:
         //Função alert(string);
-        alert("")
+        // alert("Olá mundo!");
+
+        //document.write(string); Foi usado para dar saída de dados para o usuário
+        // document.write("Olá mundo!");
+        // document.writeln("Olá mundo!");
+
+        //O console log é usado para depuração do código e deve ser utilizado sempre.
+        console.log("Olá mundo!");
+         console.warn("Olá mundo!");
+          console.error("Olá mundo!");
+           console.info("Olá mundo!");
+            console.table("Olá mundo!");
+        
 
 
     </script>
