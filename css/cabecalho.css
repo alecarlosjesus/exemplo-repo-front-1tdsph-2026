@@ -9,15 +9,20 @@
 .cabecalho__navbar,
 .cabecalho__lista {
   width: 100%;
-  height: 100%;
 }
 
 .cabecalho__lista {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-@media (min-width: 320px) {
+.cabecalho__list-item {
+  display: inline-block;
+  margin:0 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 425px){
   .cabecalho {
     background: #1b0530;
     background: linear-gradient(
@@ -26,17 +31,17 @@
       rgb(98, 53, 105) 35%,
       rgb(36, 1, 36) 100%
     );
-    padding: 2rem;
+
+    padding: 0;
+  
   }
 
   .cabecalho__list-item {
-    margin: 0 0.2rem;
+    margin: 1%;
   }
+  .cabecalho__link {
+    font-size: 1.4rem;
+  }
+
 }
 
-@media (min-width: 768px) {
-  .cabecalho__list-item {
-    margin: 0 3rem;
-    font-size: 2.5rem;
-  }
-}
